@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #1268b2;
+  font-family: roboto;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #c8e5e1;
+  width: 80vw;
+  margin: 20px auto;
+  border-radius: 7px;
+  box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.267);
+  padding: 10px;
+  padding-top: 0px;
+}
+form input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #1268b2;
+  outline: none;
+}
+form input:focus {
+  border: 2px solid #1268b2;
+  border-right: none;
+}
+form button {
+  background: #1268b2;
+  color: white;
+  border: none;
+  padding: 3px 6px;
+}
+form h3 {
+  font-family: Festive;
+  font-size: 50px;
+  margin: 0;
+}
+.alert {
+  width: 50vw;
+  text-align: center;
+  padding: 2px;
+  margin-bottom: 15px;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+.alert-red {
+  background-color: lightcoral;
+}
+.alert-green {
+  background-color: lightgreen;
+}
+.grocery-list {
+  display: flex;
+  flex-direction: column;
+}
+.grocery-item {
+  display: flex;
+  background: #c8e5e1;
+  width: 80vw;
+  align-items: center;
+  padding: 0 15px;
+  margin: 5px auto;
+  border-radius: 7px;
+  box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.267);
+  text-transform: capitalize;
+}
+.button-container {
+  transform: translateX(65vw);
+  position: absolute;
+}
+.button-container button {
+  background: transparent;
+  border: none;
+  font-size: 15px;
+}
+.clear-all {
+  width: 60vw;
+  margin: 15px auto;
+  padding: 7px;
+  background-color: lightcoral;
+  border: none;
+  color: white;
+  border-radius: 7px;
+  box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.267);
+}
